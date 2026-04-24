@@ -1,4 +1,4 @@
-# Gameplay Features 
+## Gameplay Features 
 
 Press the play button to navigate to the daylist page. Explore the days as Marty R., the mailmouse of a quaint, mysterious island called Honey Haven. Talk to townsfolk, deliver the mail, play minigames, and get absorbed in a vibrant story!
 
