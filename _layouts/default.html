@@ -12,13 +12,14 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1 style="font-size: 1.5rem;"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1 style="font-size: 1.1rem; line-height: 1.2; margin-bottom: 10px;">
+          <a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
+        </h1>
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+    <p style="font-size: 0.9rem;">{{ site.description | default: site.github.project_tagline }}</p>
 
-        <img src="coverart.png" alt="Honey Haven Cover" style="width: 100%; max-width: 500px; height: auto;">
-
-      </header>
+      <img src="coverart.png" alt="Honey Haven Cover" style="width: 100%; max-width: 270px; height: auto; display: block; margin-top: 15px;">
+    </header>
       <section>
 
       {{ content }}
